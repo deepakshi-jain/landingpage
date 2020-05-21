@@ -1,8 +1,9 @@
-.nav-link {
+/*div>div>.nav-link {
     
-    margin-left: 0px;
-    /* color: black; */
-}
+   color:red;
+     
+}*/
+
 .carousel-control-next-icon {
     	background-image: url("img/next.png");
     }
@@ -31,13 +32,15 @@
 		}
 		.navbar-light .navbar-nav .nav-link {
 			color: black!important;
+			margin-left:55px;
 		}
 		.nav-link{
 			font-size: 20px;
 			text-align: center;
-			margin-left: 55px;
+			/*margin-left: 55px;*/
 			/*color: black;*/
 		}
+		
 		/*@media only screen and (min-width: 576){
 			.card{
 				height:400px;
@@ -85,6 +88,14 @@
    color: white;
    font-size: 25px;
    float: left;
+  /* margin-left: 0px;*/
+}
+.side{
+	margin-left: 0px!important;
+}
+.navbar-brand {
+    
+    margin-left: 10px;
 }
 .navbar-right
 {
